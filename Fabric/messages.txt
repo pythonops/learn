@@ -1,0 +1,20 @@
+HOSTNAME:ops@web-1
+Current User:ops
+IP:10.0.0.12
+Kernel:4.4.0-70-generic
+Hostname:web-1
+Current Time:2017-07-28 12:29:26 
+No LSB modules are available.
+Host OS:Ubuntu 16.04.1 LTS
+CPU:Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz 
+
+HOSTNAME:ops@web-2
+Current User:ops
+IP:10.0.0.13
+Kernel:4.4.0-87-generic
+Hostname:web-2
+Current Time:2017-07-28 12:29:26 
+No LSB modules are available.
+Host OS:Ubuntu 16.04.1 LTS
+CPU:Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz 
+

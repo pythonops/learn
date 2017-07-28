@@ -17,16 +17,19 @@ env.roledefs = {
 
 @roles("web")
 @task
+@parallel
 def get_ip():
     shell_command = ''' ifconfig ens33 |grep 'inet addr'|awk -F ":" '{print $2}'|awk '{print $1}' '''
     return run(shell_command)
 
 @roles("db")
 @task
+@parallel
 def get_disk():
     shell_command = ''' df -h / | awk '{print $4}' | grep '^[0-9].*' '''
     return run(shell_command)
 
+@runs_once
 @task
 def go():
     #隐藏Fabric输出信息。
