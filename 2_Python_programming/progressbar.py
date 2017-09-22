@@ -12,5 +12,5 @@ def view_bar(num, total):
  
 if __name__ == '__main__':
   for i in range(0, 101):
-    time.sleep(0.3)
+    time.sleep(0.2)
     view_bar(i, 100)
